@@ -7,6 +7,18 @@ Python / CustomTkinter 桌面应用：拖入音频或视频转写、麦克风增
 
 ![1790853115222](images/image-m.png)
 
+## 预备模型
+
+```
+├── dev_model
+    ├── netease-youdao
+    ├── Qwen3-ASR-0.6B
+    ├── Qwen3-ASR-1.7B
+    ├── sherpa-onnx-whisper-medium
+    ├── Whisper-large-v3-large
+    ├── Whisper-large-v3-medium
+    └── Whisper-large-v3-turbo
+```
 
 ## 安装与启动
 
