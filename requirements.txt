@@ -1,0 +1,25 @@
+# Python 3.10+ (3.11/3.12 recommended for the ML package ecosystem).
+# Install a torch/torchaudio pair appropriate to your CPU or CUDA first if needed.
+torch>=2.5,<3
+torchaudio>=2.5,<3
+
+# Qwen's official SDK also loads Confucius4-R2T2's shared Transformers architecture.
+# These versions match qwen-asr 0.0.6's published dependency constraints.
+qwen-asr==0.0.6
+transformers==4.57.6
+accelerate==1.12.0
+openai-whisper>=20250625
+sherpa-onnx==1.13.8
+sherpa-onnx-core==1.13.8
+
+customtkinter>=5.2.2,<6
+tkinterdnd2>=0.4.2,<0.5
+numpy>=1.26,<3
+sounddevice>=0.5,<0.6
+soundfile>=0.13,<0.14
+silero-vad>=6,<7
+librosa>=0.11,<0.12
+scipy>=1.11,<2
+
+# System packages (not pip): python3-tk, ffmpeg, libportaudio2, portaudio19-dev.
+# ASR checkpoints stay outside the application; no dependency downloads them.
